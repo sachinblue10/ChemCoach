@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #89B5B6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorController">
+   <children>
+      <Button fx:id="atomicStructure" layoutX="154.0" layoutY="200.0" mnemonicParsing="false" style="-fx-background-color: #89B5B6;" text="2 Atomic Stucture">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="energetics" layoutX="153.0" layoutY="251.0" mnemonicParsing="false" style="-fx-background-color: #89B5B6;" text="5 Energetics/Thermochemistry">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="kinetics" layoutX="152.0" layoutY="306.0" mnemonicParsing="false" style="-fx-background-color: #89B5B6;" text="6 Kinetics">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="114.0" layoutY="95.0" text="The Ultimate IB Chemistry Calculator">
+         <font>
+            <Font name="Cambria" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="stoichiometry" layoutX="154.0" layoutY="149.0" mnemonicParsing="false" style="-fx-background-color: #89B5B6;" text="1 Stoichiometry">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="menu" layoutX="219.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #89B5B6;" text="ChemCoach">
+         <font>
+            <Font name="Cambria" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="toMenuPage" layoutX="292.0" layoutY="359.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
